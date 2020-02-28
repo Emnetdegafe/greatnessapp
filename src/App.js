@@ -14,7 +14,7 @@ function App() {
       <AboutPage />
       <DiscoverMoviesPage /> */}
       <nav>
-        <NavLink to="/HomePage" active="color:blue"> Home </NavLink>
+        <NavLink to="/HomePage" activeStyle={{ fontweight: "bold", backgroundcolor: "light blue" }}> Home </NavLink>
         <NavLink to="/AboutPage"> About </NavLink>
         <NavLink to="/DiscoverMoviesPage"> Discover Movies </NavLink>
       </nav>
